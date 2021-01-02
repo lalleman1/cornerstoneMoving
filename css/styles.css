@@ -1,0 +1,14 @@
+h1, h2, h3 {
+    font-family: 'Merienda One', cursive;
+}
+
+.navbar {
+    background-color: #79BDE8;
+}
+
+.jumbotron {
+    margin: 0;
+    background-image: url(../img/movingBoxes2.jpg);
+    background-size: cover;
+}
+#79BDE8

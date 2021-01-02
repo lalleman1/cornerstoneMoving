@@ -14,9 +14,11 @@
 
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Cornerstone Moving</a>
-  <img src="img/cornerstone_logo_icon_blue.jpg" alt="" width="30" height="30">
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="img/cornerstone_logo_icon_blue.jpg" alt="" width="30" height="30" class="d-inline-block align-top" alt="">
+    Cornerstone Moving
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -36,24 +38,17 @@
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="aboutus.html">About Us</a>
+          <a class="dropdown-item" href="services.html">Services</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="contactus.html">Contact Us</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
-<header class="jumbotron">
+<header class="jumbotron"> 
   <div class="container">
     <div class="row">
       <img src="img/cornerstone_logo_icon_blue.jpg" alt="Cornerstone Moving Logo" height="50" width="50">
@@ -68,7 +63,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <a class="navbar-brand" img src="img/cornerstone_logo_icon_blue" href="img/cornerstone_logo_icon_blue.jpg">Cornerstone Moving</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#cornerstoneNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="cornerstoneMovingNavbar">
@@ -76,7 +71,8 @@
             <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
             <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>About Us</a></li>
             <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-clipboard fa-lg"></i>Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i>Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="hints.html"><i class="fa fa-address-card fa-lg"></i>Moving Hints</a></li>
           </ul>
         </div>
     </nav>
@@ -119,5 +115,10 @@
     </div>
   </div>
 </footer>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </html>
