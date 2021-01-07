@@ -1,14 +1,37 @@
 h1, h2, h3 {
     font-family: 'Merienda One', cursive;
+    color: #000000;
 }
 
 .navbar {
-    background-color: #79BDE8;
+    background: linear-gradient(
+        to bottom right,
+        #00538E,
+        #79BDE8
+    )
 }
+
 
 .jumbotron {
     margin: 0;
     background-image: url(../img/movingBoxes2.jpg);
-    background-size: cover;
+    )
 }
-#79BDE8
+
+
+body {
+    background-image: linear-gradient(
+        white,
+        #a0a1a2
+    );
+}
+
+.card {
+    background-color: #a0a1a2;
+    background-image: url(../img/movingBoxes2.jpg);
+    background-size: cover;
+    border: 0px;
+}
+
+
+
